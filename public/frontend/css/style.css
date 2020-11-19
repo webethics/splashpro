@@ -1,0 +1,513 @@
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../fonts/lato/Lato-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/segoe/SegoeUI-Bold.eot');
+    src: url('../fonts/segoe/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/segoe/SegoeUI-Bold.woff2') format('woff2'),
+        url('../fonts/segoe/SegoeUI-Bold.woff') format('woff'),
+        url('../fonts/segoe/SegoeUI-Bold.ttf') format('truetype'),
+        url('../fonts/segoe/SegoeUI-Bold.svg#SegoeUI-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/segoe/SegoeUI.eot');
+    src: url('../fonts/segoe/SegoeUI.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/segoe/SegoeUI.woff2') format('woff2'),
+        url('../fonts/segoe/SegoeUI.woff') format('woff'),
+        url('../fonts/segoe/SegoeUI.ttf') format('truetype'),
+        url('../fonts/segoe/SegoeUI.svg#SegoeUI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  font-family: 'Segoe UI';
+  font-weight: normal;
+  font-style: normal;
+  color: #303030;
+  line-height: 1.6;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
+  font-family: 'Segoe UI';
+  font-weight: normal;
+  font-style: normal;
+  color: #383838;
+}
+p {
+  font-family: 'Segoe UI';
+  font-weight: normal;
+  font-style: normal;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.nav-section .navbar {
+  padding: 0;
+  background-color: #fff !important;
+  border-bottom: 1px solid rgb(84, 83, 95);
+}
+.nav-section .navbar .navbar-brand {
+    padding: 0;
+    margin-right: 0;
+}
+
+.nav-section .navbar .navbar-nav.left-nv .nav-item.active {
+    background-color: #478FCD;
+	
+}
+.nav-section .navbar .navbar-nav.left-nv .nav-item.active a {
+    color: #fff;
+}
+
+.nav-section .navbar .navbar-nav.left-nv .nav-item  {
+   margin: 0 10px;
+}
+
+.nav-section .navbar .navbar-nav.left-nv .nav-item a {
+    color: #000;
+}
+.nav-section .navbar .navbar-nav.left-nv .nav-item:hover {
+    background-color: #478FCD;
+}
+.nav-section .navbar .navbar-nav.left-nv .nav-item a:hover  {
+    color: #fff;
+}
+.service-btn {
+    background-color: #54535F;
+    color: #fff;
+    padding: 19px 22px;
+    font-size: 34px;
+    display: inline-block;
+	margin-right: 20px;
+}
+
+.service-btn:hover {
+    color: #fff;
+}
+
+
+/******************************************************************/
+
+.select-data .dropdown.bootstrap-select {
+    width: 150px !important;
+}
+.nav-link.login {
+    color: #000 !important;
+}
+.nav-rght {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 30px;
+}
+.nav-link.signup:hover {
+    background-color: #d72307;
+}
+.nav-link.signup {
+    background-color: #ff3a1c;
+    color: #fff !important;
+    border-radius: 40px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    display: inline-block;
+    margin-left: 5px;
+}
+.nav-link.signup i {
+    padding-left: 5px;
+}
+
+
+.card-body.crdb-txt {
+  text-align: center;
+  padding: 30px 10px;
+	width: 100%;
+height: 100%;
+}
+.card-body.crdb-txt h3 {
+  font-size: 22px;
+  color: #000;
+	font-weight: bold;
+}
+.card-body.crdb-txt p {
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 30px;
+    padding-bottom: 15px;
+}
+.card-body.crdb-txt a {
+  background-color: #ff3a1c;
+  padding: 7px 10px;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #ccc;
+}
+.content-section {
+    width: 100%;
+    display: inline-block;
+    margin-top: 150px;
+	padding: 0 60px;
+	margin-bottom: 50px;
+}
+
+
+.traffic-hd {
+  text-align: center;
+  margin: 0 0 60px 0;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: bold;
+  color: #54535f;
+}
+.trf-box {
+  text-align: center;
+  border: 1px solid rgb(84, 83, 95);
+	width: 100%;
+height: 100%;
+}
+.grey-box {
+  background-color: #54535f;
+  color: #fff;
+  padding: 20px 10px;
+	font-size: 20px;
+}
+.grey-box p {
+  margin: 0;
+  padding: 0 0 0 0;
+}
+.grey-box h2 {
+  color: #fff;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 48px;
+  font-weight: bold;
+}
+.gry-txt-box {
+  margin: 20px 56px;
+}
+.gry-txt-box h6 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 900;
+    margin: 30px 0 25px 0;
+}
+.gry-txt-box p {
+    font-size: 20px;
+    color: #000;
+}
+.fade-txt {
+    color: #707071 !important;
+    line-height: 46px;
+    padding: 0 30px;
+}
+.gry-txt-box a {
+  background-color: #ff3a1c;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+.nav-rght .nav-link.login:hover {
+    color: #ff3a1c !important;
+}
+.nav-rght .nav-item {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff3a1c;
+}
+
+.grey-box span {
+    color: #707071;
+    font-size: 20px;
+}
+
+
+/************************************************************************/
+
+
+#ht-masthead .search-field {
+  background-color: transparent;
+  background-image: url(images/search-icon.png);
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  border: none;
+  cursor: pointer;
+  height: 37px;
+  margin: 3px 0;
+  padding: 0 0 0 34px;
+  position: relative;
+  -webkit-transition: width 400ms ease, background 400ms ease;
+  transition: width 400ms ease, background 400ms ease;
+  width: 230px;
+}
+
+#ht-masthead .search-field:focus {
+  background-color: #fff;
+  border: 2px solid #c3c0ab;
+  cursor: text;
+  outline: 0;
+}
+#ht-masthead .search-form {
+  display: none;
+  position: absolute;
+  right: 200px;
+  top: 200px;
+}
+.search-toggle:hover #ht-masthead .search-form {
+  display: block;
+}
+.search-form
+    .search-submit {
+  display: none;
+}
+
+.search-form {
+  position: relative;
+}
+
+.search-form label {
+  position: relative;
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-search-strong-128.png') 0 0 no-repeat;
+  background-size: cover;
+  width: 30px; height: 30px;
+  text-indent: 9999px;
+  overflow: hidden;
+  white-space: nowrap;
+	margin: 8px 0 0 0 ;
+}
+
+.search-input {
+  transform: translateY(-100%);
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  transition: opacity .25s, transform .25s;
+  left: 0;
+  z-index: -1;
+  border: 0;
+  outline: 0;
+  
+}
+.search-label, .search-input {
+    background: #54535f;
+    padding: 0.5em;
+    display: inline-block;
+    margin-top: 0px;
+    color: #fff;
+}
+
+.clicked + .search-input {
+  opacity: 1;
+  transform: translateY(0);
+}
+.card-body.crdb-txt a:hover, .gry-txt-box a:hover {
+    background-color: #d72307;
+}
+/************************* CSS *****************************************/
+
+@media (max-width:1500px) {
+	
+	.content-section {
+    margin-bottom: 50px;
+}
+		
+.gry-txt-box p {
+    font-size: 17px;
+}	
+.fade-txt {
+    line-height: 40px;
+    padding: 0px 10px;
+}	
+	.gry-txt-box {
+    margin: 20px 36px;
+}
+	
+}
+
+@media (max-width:1300px) {
+	.gry-txt-box {
+    margin: 20px 15px;
+}
+	
+	.card-body.crdb-txt p {
+    font-size: 18px;
+    padding: 0 10px;
+	}
+
+}
+
+@media (max-width:1199px) {
+ .service-btn {
+    padding:15px;
+    font-size: 24px;
+    margin-right: 10px;
+}
+ .navbar-brand {
+    width: 125px;
+}
+	
+.nav-section .navbar .navbar-nav.left-nv .nav-item {
+    margin: 0 6px;
+}
+.nav-link.signup {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.grey-box h2 {
+    padding: 5px 0;
+    font-size: 30px;
+
+}
+	.gry-txt-box h6 {
+    font-size: 22px;
+}
+	.content-section {
+    margin-top: 120px;
+	}
+.gry-txt-box {
+    margin: 20px 12px;
+}
+.gry-txt-box p {
+    font-size: 15px;
+}	
+	.fade-txt {
+    line-height: 33px;
+    padding: 0px 7px;
+}
+	.card-body.crdb-txt p {
+    font-size: 15px;
+    padding: 0 10px;
+    line-height: 26px;
+}
+}
+@media (max-width:991px) {
+	.traffic-hd {
+    margin: 0 0 40px 0;
+	}
+	
+	.trf-box {
+    margin-bottom: 30px;
+}
+  
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+}	
+.navbar-toggler {
+    color: rgba(0, 0, 0, .5) !important;
+    border-color: rgba(0, 0, 0, .3) !important;
+	margin-right: 20px;
+}	
+	
+.service-btn {
+    padding: 12px;
+    font-size: 24px;
+    margin-right: 10px;
+}	
+.navbar-brand {
+    width: 116px;
+}
+		.nav-section .navbar .navbar-nav.left-nv .nav-item {
+    margin: 0;
+    text-align: center;
+}
+	
+	
+.nav-rght {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ccc;
+}	
+	
+.nav-rght .nav-item {
+    padding: 0;
+    width: 100%;
+}
+	.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+	.select-data .dropdown.bootstrap-select {
+    width: 100% !important;
+    max-width: 100%;
+}
+	
+.nav-link.login {
+    text-align: center;
+    padding: 8px 0;
+}	
+.nav-link.signup {
+    border-radius: 0;
+    margin-left: 5px;
+    width: 100%;
+	padding: 8px 0
+}
+	
+.navbar-collapse {
+    border-top: 1px solid #54535f;
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}	
+.nav-link.signup {
+    margin-left: 0;
+    text-align: center;
+}
+	
+.search-label, .search-input {
+    width: 100%;
+}	
+	
+.search-form {
+    position: relative;
+    text-align: center;
+    z-index: 9999;
+}
+	
+.trf-box {
+    height: auto;
+}	
+	
+	
+	
+}
+
+@media (max-width:767px) {
+	
+	
+}
+

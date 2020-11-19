@@ -1,0 +1,227 @@
+html {
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+body.show-spinner > main {
+  overflow: hidden !important;
+}
+
+/* Hide everything under body tag */
+body.show-spinner > *{
+  opacity: 0;
+}
+
+/* Spinner */
+body.show-spinner::after{
+  content: " ";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  border-top-color: rgba(0, 0, 0, 0.3);
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  left: calc(50% - 15px);
+  top: calc(50% - 15px);
+  position: fixed;
+  z-index: 1;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+a {
+    color: #145388;
+}
+
+/******************/
+.logo {
+    width: 110px;
+    height: 57px;
+    background-position: center center;
+	background-size: contain;
+}
+.auth-card .form-side {
+    width: 100%;
+}
+.logo-single {
+    margin-bottom: 30px;
+}
+.navbar-logo {
+    margin-left: 60px;
+}
+
+
+.navbar-logo  {
+      margin-left: 60px; }
+      @media (max-width: 1439px) {
+.navbar-logo {
+          margin-left: 50px; } }
+      @media (max-width: 1199px) {
+        .navbar .navbar-right .user {
+          margin-right: 40px; } }
+      @media (max-width: 767px) {
+        .navbar .navbar-right .user {
+          margin-right: 15px; } }
+
+
+.btn-filter{
+	border-radius: .1rem;
+	outline: initial !important;
+	box-shadow: initial !important;
+	font-size: .8rem;
+	padding: .5rem .75rem;
+	line-height: 1;
+	border: 1px solid #d7d7d7;
+	background: #fff;
+	color: #3a3a3a;
+	border-color: #d7d7d7;
+	height: calc(2em + .8rem);
+	text-align:left;
+}
+.btn-filter {
+    padding-right: 1.2rem;
+}
+.btn-filter ~ .dropdown-menu{
+	width:100%;
+}
+.btn-filter::after {
+position:absolute;
+right:10px;
+top:50%;
+border-top: .4em solid;
+border-right: .4em solid transparent;
+border-left: .4em solid transparent;
+}
+.navbar .menu-button .main {
+    fill: #000;
+}
+#app-container.menu-sub-hidden .menu-button .sub, #app-container.sub-hidden .menu-button .sub {
+    fill: #000;
+}
+.navbar .menu-button svg {
+    height: 21px;
+}
+footer.page-footer {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    height: 60px;
+}
+body {
+    padding-bottom: 60px;
+}
+.datepicker {
+    z-index: 9999 !important;
+}
+table.dataTable td {
+    padding:.75rem;
+}
+.table.dataTable td {
+    vertical-align:middle;
+	padding:.55rem .75rem;
+}
+@media (max-width: 575px) {
+.footer-content p {
+    font-size: 12px;
+}
+}
+@media (max-width: 991px) {
+.table-responsive .table th, .table-responsive .table td {
+    white-space: nowrap;
+    max-width: 200px;
+}
+}
+.btn.add-more, .btn.remove {
+    border-radius: 0;
+    padding: 1px 12px;
+    font-size: 1.4rem;
+	border: 1px solid #d7d7d7;
+	margin-left:10px;
+	color:#fff;
+	min-width:40px;
+}
+.btn.add-more{
+background-color: #0db896;
+border-color:#0db896;
+}
+.btn.remove {
+background-color:#c82333;
+border-color:#bd2130;
+}	
+.custom-bandage {
+    display: block;
+    font-size: 1rem;
+    padding: .9em .75em;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.badge-success {
+    background-color: #0db896;
+}
+.editable-container .popover-header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ebebeb;
+}
+.editable-submit, .editable-cancel{
+padding: 5px 10px;
+font-size: 12px;
+line-height: 1.5;
+border-radius: 3px;
+}
+.editable-cancel{
+background-color: #ffffff;
+border-color: #cccccc;
+}
+
+.editable-container .bs-popover-right > .arrow {
+    top: 50% !important;
+    -webkit-transform: translateY(-50%) !important;
+        -ms-transform: translateY(-50%) !important;
+            transform: translateY(-50%) !important;
+    margin: 0 !important;
+}
+.vertical-tabs .nav-item {
+    border-bottom: 1px solid #f0f0f0;
+}
+.vertical-tabs .nav-item.show .nav-link::before, 
+.vertical-tabs .nav-link.active::before{
+	display:none;
+}
+.card-header.tabs-header {
+padding: 1.75rem;
+}
+.vertical-tabs .nav-item .nav-link {
+    font-weight: 600;
+}
+.vertical-tabs .nav-item .nav-link.active {
+    background: #0D85BB;
+    color: #fff;
+} 
+
+.modal-right .modal-header {
+    flex: 0 0 auto;
+}
+xmp {
+    white-space: normal;
+    word-wrap: break-word;
+}
+.hide {
+    display: none !important;
+}
+.bg-success{
+	background:#0db896;
+}

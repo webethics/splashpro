@@ -1,0 +1,286 @@
+[02-Jul-2020 04:44:38 UTC] PHP Parse error:  syntax error, unexpected 'mail' (T_STRING) in /home/sungen/public_html/convert_api/delete_10_days_old.php on line 3
+[02-Jul-2020 16:00:35 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[02-Jul-2020 16:12:11 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[02-Jul-2020 17:49:44 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[03-Jul-2020 13:57:28 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[04-Jul-2020 07:04:03 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[04-Jul-2020 07:04:03 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[06-Jul-2020 10:50:48 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[06-Jul-2020 12:30:27 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[06-Jul-2020 12:34:09 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[06-Jul-2020 17:44:04 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[07-Jul-2020 12:26:05 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[07-Jul-2020 16:00:08 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[07-Jul-2020 16:02:05 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[07-Jul-2020 16:02:05 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[08-Jul-2020 10:16:57 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[08-Jul-2020 10:36:58 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[08-Jul-2020 11:08:12 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[08-Jul-2020 11:14:05 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[08-Jul-2020 11:16:05 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[08-Jul-2020 14:54:34 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[08-Jul-2020 15:42:06 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[09-Jul-2020 06:36:03 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Parameter validation error. Code: 4000 {"File":["File size must be greater than 0 bytes."]}' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":4000,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/con[09-Jul-2020 15:17:21 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[09-Jul-2020 15:22:52 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[09-Jul-2020 15:52:09 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[09-Jul-2020 16:41:21 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[10-Jul-2020 10:28:04 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[10-Jul-2020 13:06:07 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Invalid user credentials - bad secret. Code: 4010' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":4010,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[10-Jul-2020 13:06:08 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Invalid user credentials - bad secret. Code: 4010' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":4010,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[13-Jul-2020 09:54:31 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Api' with message 'Conversion failed. Code: 5001' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:146
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(106): ConvertApi\Client->checkResponse(Resource id #18, '{"Code":5001,"M...')
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 146
+[13-Jul-2020 13:47:42 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Client' with message 'Operation timed out after 1190000 milliseconds with 0 bytes received' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:120
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(104): ConvertApi\Client->handleCurlError(Resource id #18)
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 120
+[13-Jul-2020 13:49:52 UTC] PHP Fatal error:  Uncaught exception 'ConvertApi\Error\Client' with message 'Operation timed out after 1190001 milliseconds with 0 bytes received' in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php:120
+Stack trace:
+#0 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(104): ConvertApi\Client->handleCurlError(Resource id #18)
+#1 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php(22): ConvertApi\Client->execute(Resource id #18)
+#2 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Task.php(31): ConvertApi\Client->post('convert/xlsx/to...', Array, 1190)
+#3 /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/ConvertApi.php(74): ConvertApi\Task->run()
+#4 /home/sungen/public_html/convert_api/sugar_api_auth_prod.php(79): ConvertApi\ConvertApi::convert('pdf', Array, 'xlsx')
+#5 {main}
+  thrown in /home/sungen/public_html/convert_api/vendor/convertapi/convertapi-php/lib/ConvertApi/Client.php on line 120

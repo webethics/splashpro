@@ -1,0 +1,391 @@
+.input-icon {
+  position: relative;
+}
+
+.input-icon > i {
+	position: absolute;
+	display: block;
+	transform: translate(0, -50%);
+	top: 50%;
+	pointer-events: none;
+	width: 32px;
+	text-align: center;
+	font-style: normal;
+	border-left: 1px solid #000;
+}
+
+.input-icon > input {
+  padding-left: 25px;
+	padding-right: 0;
+}
+
+.withdrawal{
+	font-size: 14px;
+    line-height: 26px;
+}
+.chat_links{
+    color: #fff;
+    background-color: #145388;
+	border-color: #145388;
+    padding: 5px;
+	margin:0 8px
+}
+.chat_links:hover{
+	color:#fff;
+	background-color: #0f3d64;
+    border-color: #0f3d64;
+}
+#showNomineeDetails hr{width:100%}
+
+#user_response_update_1,#user_response_update,#user_response_update_db,#user_response_update_db_1,#user_response_update_canceldb,#user_response_update_canceldb_1{
+	
+    color: #fff;
+	display: inline-block;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 4px 4px 0px 0;
+}
+.green{
+	background:#6ACA33;
+}
+.red{
+	background: #FF0000;
+}
+.darkgreen{
+	background: green;
+}
+#user_response_update_db_1 i,#user_response_update_canceldb_1 i {color:#fff}
+
+.input-icon-right > i {
+  right: 0;
+}
+
+.input-icon-right > input {
+  padding-left: 12px;
+  padding-right: 25px;
+
+}
+
+.edit_link{
+	width:100%;
+	text-align:right;
+}
+
+.action i{
+	font-size: 16px;
+    font-weight: normal;
+    margin: 0px 7px;
+}
+.logo_image{
+	
+	margin: 0 auto;
+    text-align: center;
+    width: 120px;
+}
+.auth-card .form-side{
+	padding:40px;
+}
+.logo_image img{width:100% }
+.remove i:hover {
+    cursor: pointer;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #fff;
+    opacity: 0.99;
+}
+/* .has-float-label>span::after {
+    background: #E9ECEF;
+}
+.has-float-label>span::after {
+    background: #E9ECEF;
+    left: 3px;
+    right: 0;
+} */
+
+.customAdjust{
+	bottom: 25px;
+	position: absolute;
+}
+.global_settings h5{
+	background: #145388;
+	padding: 5px;
+	color: #fff;
+}
+
+
+/* .datepicker-dropdown {
+	-webkit-transform: translate(0);
+	-ms-transform: translate(0);
+	transform: translate(0);   
+}
+ */
+.error,.editable-error-block{
+	color:red;
+	font-size:11px;
+}
+.errors{
+	color:red;
+	font-size:11px;
+}
+.margin_bottom{
+	margin-bottom:8px !important;
+}
+.error_margin{
+  margin:0px 0 4px 0px;
+}
+.frm_class .labelcls{
+	margin-bottom:.0rem !important;
+}
+.register_row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.uppercase_button{
+	text-transform:uppercase;
+}
+.modal-dialog .social_box_div.form-row .col-md-6 {
+    max-width: 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+}
+
+/*Account Page Error Class */
+
+.hide {
+    display: none;
+}
+.alert-success {
+	color: #468847;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+.name-circle {
+	
+margin-left: 10px;
+border-radius: 30px;
+vertical-align: middle;
+border-style: none;
+background:#512DA8;
+font-size: 18px;
+font-weight: bold;
+display: inline-block;
+color:#fff;
+line-height: 30px;
+width:30px;
+height:30px;
+}
+
+.alert-block button.close {
+    font-size: 18px;
+}
+.alert-block {
+    font-size: 12px;
+}
+
+
+.custom-comment .user {
+    font-style: italic;
+    color: #145388;
+}
+
+.custom-comment .time {
+    font-size: 12px;
+    color: #909090;
+} 
+.simple-icon-trash {
+    color: red; 
+}
+
+.navbar #notificationDropdown{
+	height:auto;
+}
+
+.navbar .header-icon#notificationButton .count1 {
+
+    font-size: 9px;
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 10px;
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    text-align: center;
+    font-weight: 700;
+    top: -4px;
+    right: 2px;
+    line-height: 14px;
+	background-color:red;
+}
+.time_period {
+    font-size: 14px;
+    display: block;
+    margin-top: 16px;
+    font-weight: normal;
+    font-family: open_sansregular;
+}
+.balance{color:#145388;font-size:15px;font-weight : bold}
+.fl_right{float:right}
+
+.referred_name_label{
+	line-height: 36px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #004272;
+}
+  .input-daterange .input-group-addon{padding:10px 15px;}
+  .colorpicker-parent {
+	position: relative;
+}
+.card-body.cardpayment_sec {
+    padding: 10px 0 30px;
+}
+.CardField {
+    display: none;
+}
+.termcondition{margin-top:30px;}
+.modal-header.confirm {
+    padding: 10px 20px;
+    background: #145388;
+    border-radius: 0;
+}
+.modal-header.confirm h2 {
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.currentplan_sec .modal-body {
+    padding: 20px 20px;
+}
+.currentplan_sec .modal-footer {
+    padding: 20px 10px;
+}
+.currentplan_sec .modal-footer button.btn.btn-default {
+    background: #d03434;
+    color: #fff;
+}
+.modal-header.confirm button.close {
+    color: #fff;
+    opacity: 1;
+}
+.currentplan_sec .card-body {
+    padding: 0;
+}
+.currentplan_sec .card-body h5 {
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 24px;margin-bottom: 0 !important;
+    border-bottom: 1px solid #e8e8e8;
+}
+.currentplan_sec .card-body h3 {
+    padding: 30px 20px;
+    margin-bottom: 0;
+}
+.canceldiv {
+    padding: 0px 20px 20px;
+}
+.currentplan_sec .card {
+    border-radius: 0;
+}
+.canceldiv b {
+    display: block;
+    width: 100%;
+    padding-top: 15px;
+}
+
+#age_and_price .success{
+	font-size:20x;
+	color:green;
+}
+.highlight-error {
+  border-color: red;
+}
+h3.success{
+	font-size:14px;
+	color:green;
+}
+h3.failure{
+	font-size:14px;
+	color:red;
+}
+#age_and_price .failure{
+	font-size:20x;
+	color:red;
+}
+#age_and_price{
+	font-weight:bold;
+	font-size:16px;
+	margin:10px 0;
+}
+.spinner-border{
+	vertical-align:middle;
+}
+.stateHead .simple-icon-user{
+	color:green;
+}
+.districtHead .simple-icon-user{
+	color:orange;
+}
+h6.policy_info{font-size:16px;font-weight:bold}
+#aadhaar_front_show img,#aadhaar_back_show img,#pan_card_show img{
+	height:200px;width:350px;
+}
+#empty_aadhaar_front img,
+#empty_aadhaar_back img,#empty_pan_card img{
+		height:200px;width:350px;
+}
+.register_title{
+	font-size: 22px;
+    font-weight: bold;
+    border-bottom: 1px solid #616161;
+    display: inline-block;
+}
+.radio{
+	width:100%
+}
+.habbit_checkbox{
+	vertical-align:middle;
+}
+.markStateHead.btn.btn-primary.default{
+	background-color:green;
+	border:none;
+	padding:.4rem 1.0rem .4rem 1.0rem
+}
+.markDistrictHead.btn-primary{
+	background-color:orange;
+	border:none;
+	padding:.4rem 1.0rem .4rem 1.0rem
+}
+
+.heading-background{
+    background-color: #145388;
+    border-color: #145388;
+    color: #fff;
+    /*line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: .05rem;*/
+    padding: .75rem 2.6rem .6rem 0.6rem;
+    border-radius: .1rem;
+}
+
+@media(min-width:768px) {
+	.termcondition {
+    margin-top: 30px;
+    margin-left: 25%;
+}
+	
+}
+
+
+
+
+@media (max-width:767px) {
+	.logo_image{width:260px;}
+	.modal-header.confirm h2{font-size:15px;}
+}
