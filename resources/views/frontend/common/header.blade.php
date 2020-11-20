@@ -1,12 +1,12 @@
 <div class="nav-section border-bottom">
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-      <div class="logo"> <a class="navbar-brand" href="#"> <img src="{{asset('frontend/images/logo.png')}}" class="img-fluid" alt="Responsive image"> </a> <a class="service-btn" href="{{  url( 'services' ) }}"> Services </a> </div>
+      <div class="logo"> <a class="navbar-brand" href="{{ url( '/' ) }}"> <img src="{{asset('frontend/images/logo.png')}}" class="img-fluid" alt="Responsive image"> </a> <a class="service-btn" href="{{  url( 'services' ) }}"> Services </a> </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav left-nv mr-auto">
           @php $services = $traffics = $leads = '' @endphp
-		 @if(collect(request()->segments())->last()=='/' || collect(request()->segments())->last()=='services')
+		 @if(collect(request()->segments())->last()=='/' || collect(request()->segments())->last()=='services' || collect(request()->segments())->last()=='')
 			@php $services ='active' @endphp
 		 @endif
 		 @if(collect(request()->segments())->last()=='traffics')

@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="{{ asset('frontend/css/gijgo.min.css') }}" type="text/css">
 
 
-		<link rel="shortcut icon" href="{{ asset('images/favicon.png')}}">
+		<link rel="shortcut icon" href="{{ asset('frontend/images/favicon.png')}}">
   <script> 
 	 base_url ="{{ url('/') }}";
 	</script > 
