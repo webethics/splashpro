@@ -1,9 +1,34 @@
 @font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/josefinsans/JosefinSans-Medium.woff2') format('woff2'),
+        url('../fonts/josefinsans/JosefinSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/josefinsans/JosefinSans-Regular.woff2') format('woff2'),
+        url('../fonts/josefinsans/JosefinSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/opensans/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
   font-family: 'Lato-Regular';
   src: url('../fonts/lato/Lato-Regular.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
-}
+} 
 @font-face {
     font-family: 'Segoe UI';
     src: url('../fonts/segoe/SegoeUI-Bold.eot');
@@ -30,23 +55,62 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/poppins/Poppins-SemiBold.woff2') format('woff2'),
+        url('../fonts/poppins/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
 body {
-  font-family: 'Segoe UI';
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-style: normal;
   color: #303030;
   line-height: 1.6;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-3, .display-4 {
-  font-family: 'Segoe UI';
-  font-weight: normal;
+  font-family: 'Josefin Sans';
+  font-weight: 500;
   font-style: normal;
   color: #383838;
 }
 p {
-  font-family: 'Segoe UI';
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-style: normal;
 }
 
 a:hover {
@@ -56,10 +120,12 @@ a:hover {
   padding: 0;
   background-color: #fff !important;
   border-bottom: 1px solid rgb(84, 83, 95);
+  height:71px;
 }
 .nav-section .navbar .navbar-brand {
     padding: 0;
     margin-right: 0;
+	 background-color:#ff4020;
 }
 
 .nav-section .navbar .navbar-nav.left-nv .nav-item.active {
@@ -75,7 +141,10 @@ a:hover {
 }
 
 .nav-section .navbar .navbar-nav.left-nv .nav-item a {
-    color: #000;
+	color: #000;
+	font-family: 'Poppins';
+	font-weight: 500;
+	font-size: .875rem;
 }
 .nav-section .navbar .navbar-nav.left-nv .nav-item:hover {
     background-color: #478FCD;
@@ -86,8 +155,8 @@ a:hover {
 .service-btn {
     background-color: #54535F;
     color: #fff;
-    padding: 19px 22px;
-    font-size: 34px;
+   padding: 14px 16px;
+    font-size: 24px;
     display: inline-block;
 	margin-right: 20px;
 }
@@ -96,6 +165,12 @@ a:hover {
     color: #fff;
 }
 
+.name_auth{
+	text-transform:capitalize;
+}
+.error_sign_in{padding-left:5px}
+
+.navbar-brand img{height:auto}
 
 /******************************************************************/
 
@@ -132,15 +207,17 @@ a:hover {
 
 
 .card-body.crdb-txt {
-  text-align: center;
-  padding: 30px 10px;
-	width: 100%;
-height: 100%;
+    text-align: center;
+    padding: 30px 10px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(84, 83, 95);
+    border-top: 0px;
 }
+
 .card-body.crdb-txt h3 {
   font-size: 22px;
   color: #000;
-	font-weight: bold;
 }
 .card-body.crdb-txt p {
     font-size: 18px;
@@ -149,11 +226,15 @@ height: 100%;
     padding-bottom: 15px;
 }
 .card-body.crdb-txt a {
-  background-color: #ff3a1c;
-  padding: 7px 10px;
-  color: #fff;
-  font-size: 18px;
-  border: 1px solid #ccc;
+	font-family: 'Josefin Sans';
+	font-weight: normal;
+	font-style: normal;
+	background-color: #FF4020;
+	padding: 7px 10px;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	display: inline-block;
 }
 .content-section {
     width: 100%;
@@ -181,7 +262,7 @@ height: 100%;
 .grey-box {
   background-color: #54535f;
   color: #fff;
-  padding: 20px 10px;
+  padding: 12px 10px;
 	font-size: 20px;
 }
 .grey-box p {
@@ -191,12 +272,12 @@ height: 100%;
 .grey-box h2 {
   color: #fff;
   margin: 0;
-  padding: 10px 0;
-  font-size: 48px;
+  padding: 6px 0;
+  font-size: 42px;
   font-weight: bold;
 }
 .gry-txt-box {
-  margin: 20px 56px;
+  margin: 20px 23px;
 }
 .gry-txt-box h6 {
     font-size: 20px;
@@ -214,7 +295,7 @@ height: 100%;
     padding: 0 30px;
 }
 .gry-txt-box a {
-  background-color: #ff3a1c;
+  background-color: #FF4020;
   color: #fff;
   padding: 10px 20px;
   display: inline-block;
@@ -223,7 +304,7 @@ height: 100%;
   border: 1px solid #ccc;
 }
 .nav-rght .nav-link.login:hover {
-    color: #ff3a1c !important;
+    color: #FF4020 !important;
 }
 .nav-rght .nav-item {
     padding-left: 5px;
@@ -233,9 +314,7 @@ height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+	    height: 100%;
 }
 
 
@@ -243,14 +322,13 @@ height: 100%;
 .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #ff3a1c;
+    background-color: #FF4020;
 }
 
 .grey-box span {
     color: #707071;
     font-size: 20px;
 }
-
 
 /************************************************************************/
 
@@ -334,6 +412,9 @@ height: 100%;
 .card-body.crdb-txt a:hover, .gry-txt-box a:hover {
     background-color: #d72307;
 }
+.navbar-brand.mobilelogo{
+	display:none;
+}
 /************************* CSS *****************************************/
 
 @media (max-width:1500px) {
@@ -412,6 +493,7 @@ height: 100%;
 }
 }
 @media (max-width:991px) {
+	
 	.traffic-hd {
     margin: 0 0 40px 0;
 	}
@@ -479,6 +561,7 @@ height: 100%;
 }
 	
 .navbar-collapse {
+	 background: #fff;
     border-top: 1px solid #54535f;
     -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
             box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
@@ -501,7 +584,15 @@ height: 100%;
 .trf-box {
     height: auto;
 }	
-	
+	.navbar-brand.desktop{
+		display:none;
+	}
+	.navbar-brand.mobilelogo{
+	display:block;
+}
+.nav-section .navbar .navbar-brand.mobilelogo{
+	background-color:#fff;
+}
 	
 	
 }

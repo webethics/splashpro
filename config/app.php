@@ -177,6 +177,7 @@ return [
         App\Providers\RouteServiceProvider::class,
 		Collective\Html\HtmlServiceProvider::class,
 		Intervention\Image\ImageServiceProvider::class,
+		Cartalyst\Stripe\Laravel\StripeServiceProvider::class,
 		//Laravel\Socialite\SocialiteServiceProvider::class,
 		
 
@@ -235,6 +236,7 @@ return [
 
       'Html' => Collective\Html\HtmlFacade::class,
 	  'Image' => Intervention\Image\Facades\Image::class,
+	  'Stripe' => Cartalyst\Stripe\Laravel\Facades\Stripe::class,
 	 // 'Socialite' => Laravel\Socialite\Facades\Socialite::class,
 	  
 

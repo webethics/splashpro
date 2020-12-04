@@ -1,24 +1,57 @@
 <?php
+if(config('app.env') == 'local'){
+	
 return [
 
-	/* 'role_type' => [
-        'SUPER_ADMIN' => 'super_admin',
-        'DATA_ADMIN' => 'data_admin',
-        'DATA_ANALYST' => 'data_analyst',
-        'CUSTOMER_ADMIN' => 'user_admin',
-        'CUSTOMER_USER' => 'customer_user',
-    ], */
-	'role_id' => [
-        'SUPER_ADMIN' => '1',
-        'INDIA_HEAD' => '2',
-        'NORMAL_USER' => '3',
-        'STATE_HEAD' => '4',
-        'DISTRICT_HEAD' => '5',
-    ],
-	'per_page'=>10,
+	
     'SUCCESS'=>'success',
     'ERROR'=>'error',
-    'TREE_LEVEL' => 5,
-    'FRONT_DATE_FORMAT' => 'd F, Y',
+   'traffic_products'=>[
+		'product_1'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_2'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_3'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_4'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+	],
+	'leads_products'=>[
+		'product_1'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_2'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_3'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_4'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+	],
+	'vSEOproducts'=>[
+		'product_1'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_2'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_3'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_4'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+	]
 ];
+
+}
+if(config('app.env') == 'production'){
+	return [
+
+	
+    'SUCCESS'=>'success',
+    'ERROR'=>'error',
+   'traffic_products'=>[
+		'product_1'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_2'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_3'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_4'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+	],
+	'leads_products'=>[
+		'product_1'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_2'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_3'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_4'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+	],
+	'vSEOproducts'=>[
+		'product_1'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_2'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_3'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+		'product_4'=>'price_1HuGWyLir9iBf0yw9airs8FO',
+	]
+];
+	
+}
 ?>

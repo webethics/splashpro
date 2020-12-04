@@ -10,6 +10,7 @@
     "require": {
         "php": "^7.2",
         "bugsnag/bugsnag-laravel": "^2.15",
+		"cartalyst/stripe-laravel": "^12.0",
         "doctrine/dbal": "^2.9",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "^6.3",

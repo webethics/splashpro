@@ -69,6 +69,56 @@ function role_data_by_id($id){
 } 
 
 
+function validate_token($token){
+	
+	if($token){
+		 //$tokendata = explode('token=',$token);
+		
+		$accessToken = $token;
+		$headers = array(
+						 "cache-control: no-cache",
+						"content-type: application/json",
+						
+					);
+		$decoded_url = config("services.docoded.url");	
+		$urln1 = $decoded_url.'/api/v1/agency/token/';
+		
+		  
+		$curl1 = curl_init($urln1);
+		curl_setopt($curl1, CURLOPT_RETURNTRANSFER, 1);
+		//curl_setopt($curl1, CURLOPT_POST, true);
+		curl_setopt($curl1, CURLOPT_HTTPHEADER, $headers);
+
+		curl_setopt($curl1, CURLOPT_TIMEOUT ,30);
+		curl_setopt($curl1, CURLOPT_HTTP_VERSION ,'CURL_HTTP_VERSION_1_1');
+		curl_setopt($curl1,   CURLOPT_CUSTOMREQUEST ,'POST');
+		curl_setopt($curl1,   CURLOPT_POSTFIELDS ,"{\"token\":\"$accessToken\"}");
+		
+		$response2 = curl_exec($curl1);
+		$response_data = json_decode($response2);
+		//pr($response_data);
+		$response_array = array();
+			
+		if($response_data){
+			if(isset($response_data->error) && !empty($response_data->error)){
+				$response_array['success'] = false;
+				$response_array['data'] = $response_data->error;
+			}else{
+				$response_array['success'] = true;
+				$response_array['data'] = $response_data->decodedToken;
+				
+			}
+		}else{
+			$response_array['success'] = false;
+			$response_array['data'] = "No Data recieved";
+		} 
+		
+		return $response_array;
+		
+			
+	}
+	
+}
 
 /* Exploade by |  */ 
 function split_to_array($sign,$data){
@@ -135,52 +185,6 @@ function check_role_access($permission_slug){
 	}else{
 		return false;
 	}
-}
-
-function access_denied_user($permission_slug,$already_check = 0){
-	$user = \Auth::user();
-	$current_user_role_id = $user->role_id;
-	
-	$permission_list_for_role = RolesPermission::where('role_id',$current_user_role_id)->get();
-//	pr($permission_list_for_role->toArray());
-	
-	$permission_array = array();
-	foreach($permission_list_for_role as $permission){
-			
-		 $slug = PermissionList::where('id',$permission->permission_id)->select('slug')->first();
-		 $permission_array[] = $slug->slug;
-	}
-	
-	if(in_array($permission_slug,$permission_array)){
-		return true;
-	}else{
-		/*check if admin user login*/
-		//check session admin id
-		if(!empty(Session::get('is_admin_login'))  && Session::get('is_admin_login') == 1 && !empty(Session::get('admin_user_id')) && $already_check == 0){
-			Auth::loginUsingId(Session::get('admin_user_id'));
-			access_denied_user($permission_slug,1);
-		}else{
-			return abort_unless(\Gate::denies(current_user_role_name()), 403);
-		}
-	}
-}
-
-/* // USER/ANALYST NOT ALBE TO ACCESS 
-function access_denied_user(){
-	
-		$role_id = Config::get('constant.role_id');
-	    if($role_id['CUSTOMER_USER']== current_user_role_id()){
-		  return abort_unless(\Gate::denies(current_user_role_name()), 403);
-	    } 
-} */
-
-function access_denied_user_analyst(){
-	
-		$role_id = Config::get('constant.role_id');
-	    if($role_id['CUSTOMER_USER']== current_user_role_id() || $role_id['DATA_ANALYST']== current_user_role_id()){
-		  return abort_unless(\Gate::denies(current_user_role_name()), 403);
-	    } 
-	
 }
 
 

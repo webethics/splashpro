@@ -9,14 +9,14 @@
 	<title>{{ showSiteTitle('title') }}</title>
     
 	
-	<link rel="stylesheet" href="{{ asset('frontend/css/bootstrap.min.css') }}">
-	<link rel="stylesheet" href="{{ asset('frontend/css/bootstrap-select.min.css') }}">
-	<link rel="stylesheet" href="{{ asset('frontend/css/fontawesome.min.css') }}" type="text/css">
+	<link rel="stylesheet" href="{{ asset('public/frontend/css/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('public/frontend/css/bootstrap-select.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('public/frontend/css/fontawesome.min.css') }}" type="text/css">
 	
-	<link rel="stylesheet" href="{{ asset('frontend/css/aos.css') }}" type="text/css">
-	<link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}" type="text/css">
-	<link rel="stylesheet" href="{{ asset('frontend/css/gijgo.min.css') }}" type="text/css">
-
+	<link rel="stylesheet" href="{{ asset('public/frontend/css/aos.css') }}" type="text/css">
+	<link rel="stylesheet" href="{{ asset('public/frontend/css/style.css') }}" type="text/css">
+	<link rel="stylesheet" href="{{ asset('public/frontend/css/gijgo.min.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ url('public/css/vendor/notifications.css')}}" type="text/css" />
 
 		<link rel="shortcut icon" href="{{ asset('frontend/images/favicon.png')}}">
   <script> 
@@ -27,11 +27,15 @@
  	@include('frontend.common.header')
 	@yield("content")
 
-	<script src="{{ asset('frontend/js/jquery-3.2.1.slim.min.js') }}"></script> 
-	<script src="{{ asset('frontend/js/bootstrap.bundle.min.js') }}"></script> 
-	<script src="{{ asset('frontend/js/bootstrap-select.min.js') }}"></script> 
-	<script src="{{ asset('frontend/js/gijgo.min.js') }}"></script> 
-	<script src="{{ asset('frontend/js/defaults-en_US.min.js') }}"></script> 
+	<script src="{{ asset('public/frontend/js/jquery-3.3.1.min.js') }}"></script> 
+	
+	<script src="{{ asset('public/frontend/js/bootstrap.bundle.min.js') }}"></script> 
+	<script src="{{ asset('public/frontend/js/bootstrap-select.min.js') }}"></script> 
+	<script src="{{ url('public/js/vendor/notifications.js')}}"></script>
+	<script src="{{ asset('public/frontend/js/gijgo.min.js') }}"></script> 
+		<script src="{{ url('public/js/dore.script.js')}}"></script>	
+		<script src="{{ url('public/js/custom.js')}}"></script>	
+	<script src="{{ asset('public/frontend/js/defaults-en_US.min.js') }}"></script> 
 	@include('frontend.common.footer')
 	@yield('extraJsCss')
 	
